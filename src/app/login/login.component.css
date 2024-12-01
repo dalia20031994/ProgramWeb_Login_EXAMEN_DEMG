@@ -1,6 +1,6 @@
 .contenedorLogin {
     max-width: 550px;
-    background-image: url('/assets/image.png');
+    background-image: url('/examen/assets/image.png');
     background-color: rgba(255, 255, 255, 0.5); 
     background-blend-mode: overlay;
     height: auto; 
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/assets/iconoUsuario.png');
+    background-image: url('/examen/assets/iconoUsuario.png');
     background-size: cover;
     background-position: center;
     height: 80px;

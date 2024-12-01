@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProgramWebLogin_DEMG": {
+    "Examen": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/program-web-login-demg",
+            "outputPath": "dist/examen",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ProgramWebLogin_DEMG:build:production"
+              "buildTarget": "Examen:build:production"
             },
             "development": {
-              "buildTarget": "ProgramWebLogin_DEMG:build:development"
+              "buildTarget": "Examen:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ProgramWebLogin_DEMG:build"
+            "buildTarget": "Examen:build"
           }
         },
         "test": {
